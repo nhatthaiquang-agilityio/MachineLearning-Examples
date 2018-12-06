@@ -1,6 +1,6 @@
-# MachineLearning-Examples
+# Machine Learning Examples
 
-## DEVOPS
+## Devops
 ### Create base image for Machine Learning
 ```
 $cd devops
