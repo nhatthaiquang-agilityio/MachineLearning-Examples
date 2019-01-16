@@ -1,0 +1,9 @@
+version: '2'
+services:
+  machinelearning:
+    image: nhatthai/machine-learning-python3.6
+    container_name: machinelearning
+    ports:
+      - "9909:9909"
+    # volumes:
+    #   - ../data/db:/var/lib/mysql
