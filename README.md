@@ -7,6 +7,7 @@
 You are likely to use a `jupyter/scipy-notebook` image.(https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook)
 + Python 3.6
 
+## Sections
 ### Data Preprocessing
 + Missing data
 + Endcoding categorical data
