@@ -16,7 +16,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import confusion_matrix
 
 # Importing the dataset
-dataset = pd.read_csv('/code/Natural_Language_Processing/Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
+dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
 
 
 nltk.download('stopwords')
