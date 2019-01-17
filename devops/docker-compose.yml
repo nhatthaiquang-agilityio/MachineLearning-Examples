@@ -3,7 +3,9 @@ services:
   machinelearning:
     image: nhatthai/machine-learning-python3.6
     container_name: machinelearning
+    command: python3 /code/Natural_Language_Processing/natural_language_processing.py
+
     ports:
       - "9909:9909"
-    # volumes:
-    #   - ../data/db:/var/lib/mysql
+    volumes:
+      - ../code:/code
