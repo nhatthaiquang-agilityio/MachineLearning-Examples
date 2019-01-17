@@ -63,6 +63,6 @@ $docker exec [container_id] pip install nltk
 ## Reference
 [Docker for Data Science](https://www.dataquest.io/blog/docker-data-science/)
 
-[Machine Learning A-Z](https://www.superdatascience.com/machine-learning/)
-
 [Jupiter Image](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
+
+[Machine Learning A-Z](https://www.superdatascience.com/machine-learning/)
