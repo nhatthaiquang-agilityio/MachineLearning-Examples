@@ -1,11 +1,11 @@
 version: '2'
 services:
   machinelearning:
-    image: nhatthai/machine-learning-python3.6
     container_name: machinelearning
-    command: python3 /code/Natural_Language_Processing/natural_language_processing.py
-
+    build:
+      context: ./
+    command: jupyter notebook
     ports:
-      - "9909:9909"
+      - "8888:8888"
     volumes:
-      - ../code:/code
+      - ../code:/home/jovyan/work
