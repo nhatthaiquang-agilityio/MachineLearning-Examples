@@ -15,13 +15,14 @@ You are likely to use a `jupyter/scipy-notebook` image.(https://jupyter-docker-s
 
 
 ### Regression
-+ Liner Regression
-+ Multiple Liner Regression
++ Linear Regression
++ Multiple Linear Regression
 + Decision Tree Regression
 + Random Forest Regression
 
 
 ### Classification
++ Logistic Regression
 + Classification
 + K Nearest Neighbors
 + SVM
