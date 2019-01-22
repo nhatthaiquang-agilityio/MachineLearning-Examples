@@ -29,6 +29,7 @@ plt.plot(X, lin_reg.predict(X), color = 'blue')
 plt.title('Truth or Bluff (Linear Regression)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
+plt.figure()
 plt.show()
 
 # Visualising the Polynomial Regression results
@@ -37,6 +38,7 @@ plt.plot(X, lin_reg_2.predict(poly_reg.fit_transform(X)), color = 'blue')
 plt.title('Truth or Bluff (Polynomial Regression)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
+plt.figure()
 plt.show()
 
 # Visualising the Polynomial Regression results (for higher resolution and smoother curve)
@@ -47,4 +49,5 @@ plt.plot(X_grid, lin_reg_2.predict(poly_reg.fit_transform(X_grid)), color = 'blu
 plt.title('Truth or Bluff (Polynomial Regression)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
+plt.figure()
 plt.show()
