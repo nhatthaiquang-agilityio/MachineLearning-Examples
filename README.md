@@ -29,24 +29,28 @@ You are likely to use a `jupyter/scipy-notebook` image.(https://jupyter-docker-s
 + Naive Bayes
 + Decision Tree Classification
 + Random Forest Classification
-
++ [Stack for Classification](https://towardsdatascience.com/automate-stacking-in-python-fc3e7834772e)
 
 ### Clustering
 + K Means
 
++ [Var Model](https://towardsdatascience.com/prediction-task-with-multivariate-timeseries-and-var-model-47003f629f9)
 
 ### Natural Language Processing
-[Understand Sentiment](https://towardsdatascience.com/making-computers-understand-the-sentiment-of-tweets-1271ab270bc7)
++ [Understand Sentiment](https://towardsdatascience.com/making-computers-understand-the-sentiment-of-tweets-1271ab270bc7)
++ [TensorFlow Hub](https://tfhub.dev/google/universal-sentence-encoder-large/3)
++ [Notebook](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/semantic_similarity_with_tf_hub_universal_encoder.ipynb#scrollTo=MSeY-MUQo2Ha)
++ [TensorFlow Hub Github Examples](https://github.com/tensorflow/hub/tree/master/examples)
++ [NLP Transfer learning techniques to predict Tweet stance](https://towardsdatascience.com/transfer-learning-in-nlp-for-tweet-stance-classification-8ab014da8dde)
++ [NLP Transfer Github](https://github.com/prrao87/tweet-stance-prediction)
 
-[TensorFlow Hub](https://tfhub.dev/google/universal-sentence-encoder-large/3)
 
-[Notebook](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/semantic_similarity_with_tf_hub_universal_encoder.ipynb#scrollTo=MSeY-MUQo2Ha)
-
-[TensorFlow Hub Github Examples](https://github.com/tensorflow/hub/tree/master/examples)
-
-[NLP Transfer learning techniques to predict Tweet stance](https://towardsdatascience.com/transfer-learning-in-nlp-for-tweet-stance-classification-8ab014da8dde)
-
-[NLP Transfer Github](https://github.com/prrao87/tweet-stance-prediction)
+### Deep Learning
++ [Counting Parameters](https://towardsdatascience.com/counting-no-of-parameters-in-deep-learning-models-by-hand-8f1716241889)
++ FFNNs(Feed Forward Neural Network)
++ RNNs(Recurrent Neural Network)
++ [CNNs(Convolutional Neural Network)](https://towardsdatascience.com/understanding-convolutional-neural-networks-through-visualizations-in-pytorch-b5444de08b91)
++ [Mask RCNN](https://towardsdatascience.com/mask-r-cnn-for-ship-detection-segmentation-a1108b5a083)
 
 
 ## Devops
@@ -73,8 +77,6 @@ $docker exec [container_id] pip install nltk
 ```
 
 ## Reference
-[Docker for Data Science](https://www.dataquest.io/blog/docker-data-science/)
-
-[Jupyter Image](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
-
-[Machine Learning A-Z](https://www.superdatascience.com/machine-learning/)
++ [Docker for Data Science](https://www.dataquest.io/blog/docker-data-science/)
++ [Jupyter Image](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
++ [Machine Learning A-Z](https://www.superdatascience.com/machine-learning/)
