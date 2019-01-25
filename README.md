@@ -8,6 +8,8 @@ You are likely to use a `jupyter/scipy-notebook` image.(https://jupyter-docker-s
 + Python 3.6
 
 ## Sections & Collection Resources
++[Overview ML Beginner](https://towardsdatascience.com/introduction-to-machine-learning-for-beginners-eed6024fdb08)
+
 ### Data Preprocessing
 + Missing data
 + Endcoding categorical data
@@ -22,18 +24,16 @@ You are likely to use a `jupyter/scipy-notebook` image.(https://jupyter-docker-s
 
 
 ### Classification
-+ Logistic Regression
++ [Logistic Regression](https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148)
 + Classification
-+ K Nearest Neighbors
++ [K Nearest Neighbors and Naive Bayes](https://towardsdatascience.com/playlist-classification-on-spotify-using-knn-and-naive-bayes-classification-35a279b7e255)
 + SVM
-+ Naive Bayes
 + Decision Tree Classification
 + Random Forest Classification
 + [Stack for Classification](https://towardsdatascience.com/automate-stacking-in-python-fc3e7834772e)
 
 ### Clustering
-+ K Means
-
++ [K Means](https://towardsdatascience.com/k-means-clustering-implementation-2018-ac5cd1e51d0a)
 + [Var Model](https://towardsdatascience.com/prediction-task-with-multivariate-timeseries-and-var-model-47003f629f9)
 
 ### Natural Language Processing
@@ -43,7 +43,7 @@ You are likely to use a `jupyter/scipy-notebook` image.(https://jupyter-docker-s
 + [TensorFlow Hub Github Examples](https://github.com/tensorflow/hub/tree/master/examples)
 + [NLP Transfer learning techniques to predict Tweet stance](https://towardsdatascience.com/transfer-learning-in-nlp-for-tweet-stance-classification-8ab014da8dde)
 + [NLP Transfer Github](https://github.com/prrao87/tweet-stance-prediction)
-
++ [Text Preprocessing Methods](https://towardsdatascience.com/nlp-learning-series-part-1-text-preprocessing-methods-for-deep-learning-20085601684b)
 
 ### Deep Learning
 + [Counting Parameters](https://towardsdatascience.com/counting-no-of-parameters-in-deep-learning-models-by-hand-8f1716241889)
