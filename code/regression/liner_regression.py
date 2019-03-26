@@ -16,7 +16,8 @@ y = dataset.iloc[:, 1].values
 
 
 # Splitting the dataset into the Training set and Test set
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=1/3, random_state=0)
 
 
 # Feature Scaling
@@ -37,8 +38,8 @@ y_pred = regressor.predict(X_test)
 
 
 # Visualising the Training set results
-plt.scatter(X_train, y_train, color = 'red')
-plt.plot(X_train, regressor.predict(X_train), color = 'blue')
+plt.scatter(X_train, y_train, color='red')
+plt.plot(X_train, regressor.predict(X_train), color='blue')
 plt.title('Salary vs Experience (Training set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
